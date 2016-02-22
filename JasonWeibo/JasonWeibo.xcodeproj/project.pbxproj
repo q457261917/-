@@ -9,12 +9,15 @@
 /* Begin PBXBuildFile section */
 		333EF4DF1C7B00C30065E10B /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 333EF4DE1C7B00C30065E10B /* main.m */; };
 		333EF4E21C7B00C30065E10B /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 333EF4E11C7B00C30065E10B /* AppDelegate.m */; };
-		333EF4E51C7B00C30065E10B /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 333EF4E41C7B00C30065E10B /* ViewController.m */; };
-		333EF4E81C7B00C30065E10B /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 333EF4E61C7B00C30065E10B /* Main.storyboard */; };
 		333EF4EA1C7B00C30065E10B /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 333EF4E91C7B00C30065E10B /* Assets.xcassets */; };
 		333EF4ED1C7B00C30065E10B /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 333EF4EB1C7B00C30065E10B /* LaunchScreen.storyboard */; };
 		333EF4F81C7B00C30065E10B /* JasonWeiboTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 333EF4F71C7B00C30065E10B /* JasonWeiboTests.m */; };
 		333EF5031C7B00C30065E10B /* JasonWeiboUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 333EF5021C7B00C30065E10B /* JasonWeiboUITests.m */; };
+		333EF5281C7B8D500065E10B /* CZTabBarController.m in Sources */ = {isa = PBXBuildFile; fileRef = 333EF5271C7B8D500065E10B /* CZTabBarController.m */; };
+		333EF52B1C7B8E450065E10B /* CZDiscoverController.m in Sources */ = {isa = PBXBuildFile; fileRef = 333EF52A1C7B8E450065E10B /* CZDiscoverController.m */; };
+		333EF52E1C7B8E5F0065E10B /* CZHomeController.m in Sources */ = {isa = PBXBuildFile; fileRef = 333EF52D1C7B8E5F0065E10B /* CZHomeController.m */; };
+		333EF5311C7B8E6F0065E10B /* CZMeController.m in Sources */ = {isa = PBXBuildFile; fileRef = 333EF5301C7B8E6F0065E10B /* CZMeController.m */; };
+		333EF5341C7B8E830065E10B /* CZMessageController.m in Sources */ = {isa = PBXBuildFile; fileRef = 333EF5331C7B8E830065E10B /* CZMessageController.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -37,11 +40,8 @@
 /* Begin PBXFileReference section */
 		333EF4DA1C7B00C30065E10B /* JasonWeibo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = JasonWeibo.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		333EF4DE1C7B00C30065E10B /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
-		333EF4E01C7B00C30065E10B /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
-		333EF4E11C7B00C30065E10B /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
-		333EF4E31C7B00C30065E10B /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
-		333EF4E41C7B00C30065E10B /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
-		333EF4E71C7B00C30065E10B /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		333EF4E01C7B00C30065E10B /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = AppDelegate.h; path = ../../AppDelegate.h; sourceTree = "<group>"; };
+		333EF4E11C7B00C30065E10B /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; name = AppDelegate.m; path = ../../AppDelegate.m; sourceTree = "<group>"; };
 		333EF4E91C7B00C30065E10B /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		333EF4EC1C7B00C30065E10B /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		333EF4EE1C7B00C30065E10B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
@@ -51,6 +51,16 @@
 		333EF4FE1C7B00C30065E10B /* JasonWeiboUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = JasonWeiboUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		333EF5021C7B00C30065E10B /* JasonWeiboUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = JasonWeiboUITests.m; sourceTree = "<group>"; };
 		333EF5041C7B00C30065E10B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		333EF5261C7B8D500065E10B /* CZTabBarController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CZTabBarController.h; sourceTree = "<group>"; };
+		333EF5271C7B8D500065E10B /* CZTabBarController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CZTabBarController.m; sourceTree = "<group>"; };
+		333EF5291C7B8E450065E10B /* CZDiscoverController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CZDiscoverController.h; sourceTree = "<group>"; };
+		333EF52A1C7B8E450065E10B /* CZDiscoverController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CZDiscoverController.m; sourceTree = "<group>"; };
+		333EF52C1C7B8E5F0065E10B /* CZHomeController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CZHomeController.h; sourceTree = "<group>"; };
+		333EF52D1C7B8E5F0065E10B /* CZHomeController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CZHomeController.m; sourceTree = "<group>"; };
+		333EF52F1C7B8E6F0065E10B /* CZMeController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CZMeController.h; sourceTree = "<group>"; };
+		333EF5301C7B8E6F0065E10B /* CZMeController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CZMeController.m; sourceTree = "<group>"; };
+		333EF5321C7B8E830065E10B /* CZMessageController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CZMessageController.h; sourceTree = "<group>"; };
+		333EF5331C7B8E830065E10B /* CZMessageController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CZMessageController.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -101,11 +111,7 @@
 		333EF4DC1C7B00C30065E10B /* JasonWeibo */ = {
 			isa = PBXGroup;
 			children = (
-				333EF4E01C7B00C30065E10B /* AppDelegate.h */,
-				333EF4E11C7B00C30065E10B /* AppDelegate.m */,
-				333EF4E31C7B00C30065E10B /* ViewController.h */,
-				333EF4E41C7B00C30065E10B /* ViewController.m */,
-				333EF4E61C7B00C30065E10B /* Main.storyboard */,
+				333EF5101C7B8BA60065E10B /* Classes */,
 				333EF4E91C7B00C30065E10B /* Assets.xcassets */,
 				333EF4EB1C7B00C30065E10B /* LaunchScreen.storyboard */,
 				333EF4EE1C7B00C30065E10B /* Info.plist */,
@@ -138,6 +144,193 @@
 				333EF5041C7B00C30065E10B /* Info.plist */,
 			);
 			path = JasonWeiboUITests;
+			sourceTree = "<group>";
+		};
+		333EF5101C7B8BA60065E10B /* Classes */ = {
+			isa = PBXGroup;
+			children = (
+				333EF5251C7B8BEA0065E10B /* Other */,
+				333EF5111C7B8BA60065E10B /* Discover */,
+				333EF5151C7B8BA60065E10B /* Home */,
+				333EF5191C7B8BA60065E10B /* Main */,
+				333EF51D1C7B8BA60065E10B /* Me */,
+				333EF5211C7B8BA60065E10B /* Message */,
+			);
+			path = Classes;
+			sourceTree = "<group>";
+		};
+		333EF5111C7B8BA60065E10B /* Discover */ = {
+			isa = PBXGroup;
+			children = (
+				333EF5121C7B8BA60065E10B /* Controller */,
+				333EF5131C7B8BA60065E10B /* Model */,
+				333EF5141C7B8BA60065E10B /* View */,
+			);
+			path = Discover;
+			sourceTree = "<group>";
+		};
+		333EF5121C7B8BA60065E10B /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				333EF5291C7B8E450065E10B /* CZDiscoverController.h */,
+				333EF52A1C7B8E450065E10B /* CZDiscoverController.m */,
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		333EF5131C7B8BA60065E10B /* Model */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		333EF5141C7B8BA60065E10B /* View */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		333EF5151C7B8BA60065E10B /* Home */ = {
+			isa = PBXGroup;
+			children = (
+				333EF5161C7B8BA60065E10B /* Controller */,
+				333EF5171C7B8BA60065E10B /* Model */,
+				333EF5181C7B8BA60065E10B /* View */,
+			);
+			path = Home;
+			sourceTree = "<group>";
+		};
+		333EF5161C7B8BA60065E10B /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				333EF52C1C7B8E5F0065E10B /* CZHomeController.h */,
+				333EF52D1C7B8E5F0065E10B /* CZHomeController.m */,
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		333EF5171C7B8BA60065E10B /* Model */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		333EF5181C7B8BA60065E10B /* View */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		333EF5191C7B8BA60065E10B /* Main */ = {
+			isa = PBXGroup;
+			children = (
+				333EF51A1C7B8BA60065E10B /* Controller */,
+				333EF51B1C7B8BA60065E10B /* Model */,
+				333EF51C1C7B8BA60065E10B /* View */,
+			);
+			path = Main;
+			sourceTree = "<group>";
+		};
+		333EF51A1C7B8BA60065E10B /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				333EF5261C7B8D500065E10B /* CZTabBarController.h */,
+				333EF5271C7B8D500065E10B /* CZTabBarController.m */,
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		333EF51B1C7B8BA60065E10B /* Model */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		333EF51C1C7B8BA60065E10B /* View */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		333EF51D1C7B8BA60065E10B /* Me */ = {
+			isa = PBXGroup;
+			children = (
+				333EF51E1C7B8BA60065E10B /* Controller */,
+				333EF51F1C7B8BA60065E10B /* Model */,
+				333EF5201C7B8BA60065E10B /* View */,
+			);
+			path = Me;
+			sourceTree = "<group>";
+		};
+		333EF51E1C7B8BA60065E10B /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				333EF52F1C7B8E6F0065E10B /* CZMeController.h */,
+				333EF5301C7B8E6F0065E10B /* CZMeController.m */,
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		333EF51F1C7B8BA60065E10B /* Model */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		333EF5201C7B8BA60065E10B /* View */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		333EF5211C7B8BA60065E10B /* Message */ = {
+			isa = PBXGroup;
+			children = (
+				333EF5221C7B8BA60065E10B /* Controller */,
+				333EF5231C7B8BA60065E10B /* Model */,
+				333EF5241C7B8BA60065E10B /* View */,
+			);
+			path = Message;
+			sourceTree = "<group>";
+		};
+		333EF5221C7B8BA60065E10B /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				333EF5321C7B8E830065E10B /* CZMessageController.h */,
+				333EF5331C7B8E830065E10B /* CZMessageController.m */,
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		333EF5231C7B8BA60065E10B /* Model */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		333EF5241C7B8BA60065E10B /* View */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		333EF5251C7B8BEA0065E10B /* Other */ = {
+			isa = PBXGroup;
+			children = (
+				333EF4E01C7B00C30065E10B /* AppDelegate.h */,
+				333EF4E11C7B00C30065E10B /* AppDelegate.m */,
+			);
+			path = Other;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -202,6 +395,7 @@
 		333EF4D21C7B00C30065E10B /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
+				CLASSPREFIX = CZ;
 				LastUpgradeCheck = 0720;
 				ORGANIZATIONNAME = "星星";
 				TargetAttributes = {
@@ -248,7 +442,6 @@
 			files = (
 				333EF4ED1C7B00C30065E10B /* LaunchScreen.storyboard in Resources */,
 				333EF4EA1C7B00C30065E10B /* Assets.xcassets in Resources */,
-				333EF4E81C7B00C30065E10B /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -273,8 +466,12 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				333EF4E51C7B00C30065E10B /* ViewController.m in Sources */,
+				333EF52E1C7B8E5F0065E10B /* CZHomeController.m in Sources */,
 				333EF4E21C7B00C30065E10B /* AppDelegate.m in Sources */,
+				333EF5311C7B8E6F0065E10B /* CZMeController.m in Sources */,
+				333EF5341C7B8E830065E10B /* CZMessageController.m in Sources */,
+				333EF52B1C7B8E450065E10B /* CZDiscoverController.m in Sources */,
+				333EF5281C7B8D500065E10B /* CZTabBarController.m in Sources */,
 				333EF4DF1C7B00C30065E10B /* main.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -311,14 +508,6 @@
 /* End PBXTargetDependency section */
 
 /* Begin PBXVariantGroup section */
-		333EF4E61C7B00C30065E10B /* Main.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				333EF4E71C7B00C30065E10B /* Base */,
-			);
-			name = Main.storyboard;
-			sourceTree = "<group>";
-		};
 		333EF4EB1C7B00C30065E10B /* LaunchScreen.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
@@ -417,6 +606,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				INFOPLIST_FILE = JasonWeibo/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.1;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = jason.chou.JasonWeibo;
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -428,6 +618,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				INFOPLIST_FILE = JasonWeibo/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.1;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = jason.chou.JasonWeibo;
 				PRODUCT_NAME = "$(TARGET_NAME)";
