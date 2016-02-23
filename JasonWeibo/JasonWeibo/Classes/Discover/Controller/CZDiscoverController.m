@@ -7,6 +7,7 @@
 //
 
 #import "CZDiscoverController.h"
+#import "CZDiscoverSearchBar.h"
 
 @interface CZDiscoverController ()
 
@@ -17,11 +18,13 @@
 - (void)viewDidLoad {
     [super viewDidLoad];
     
-    // Uncomment the following line to preserve selection between presentations.
-    // self.clearsSelectionOnViewWillAppear = NO;
+    CZDiscoverSearchBar *disSearchBar = [CZDiscoverSearchBar discoverSearchBar];
+    CGFloat width = [UIScreen mainScreen].bounds.size.width - 20;
+    CGRect bounds = disSearchBar.bounds;
+    bounds.size.width = width;
+    disSearchBar.bounds = bounds;
+    self.navigationItem.titleView = disSearchBar;
     
-    // Uncomment the following line to display an Edit button in the navigation bar for this view controller.
-    // self.navigationItem.rightBarButtonItem = self.editButtonItem;
 }
 
 - (void)didReceiveMemoryWarning {

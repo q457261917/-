@@ -1,0 +1,14 @@
+//
+//  weibo-Prefix.pch
+//  JasonWeibo
+//
+//  Created by 星星 on 16/2/23.
+//  Copyright © 2016年 星星. All rights reserved.
+//
+
+#ifndef weibo_Prefix_pch
+#define weibo_Prefix_pch
+
+#import "UIBarButtonItem+Extension.h"
+
+#endif /* weibo_Prefix_pch */

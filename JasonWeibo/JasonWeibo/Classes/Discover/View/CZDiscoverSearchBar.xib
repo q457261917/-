@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="9531" systemVersion="15B42" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES">
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="9529"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner"/>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <view contentMode="scaleToFill" id="iN0-l3-epB" customClass="CZDiscoverSearchBar">
+            <rect key="frame" x="0.0" y="0.0" width="320" height="30"/>
+            <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+            <subviews>
+                <textField opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" placeholder="大家都在搜索" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="bfC-aa-Te9">
+                    <rect key="frame" x="0.0" y="0.0" width="320" height="30"/>
+                    <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                    <textInputTraits key="textInputTraits"/>
+                </textField>
+                <button hidden="YES" opaque="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Zdg-1a-ojz">
+                    <rect key="frame" x="290" y="0.0" width="30" height="30"/>
+                    <state key="normal" title="取消">
+                        <color key="titleColor" red="1" green="0.50196081400000003" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
+                    </state>
+                    <connections>
+                        <action selector="cancel" destination="iN0-l3-epB" eventType="touchUpInside" id="VXC-oC-4ei"/>
+                        <action selector="cancelBtn" destination="iN0-l3-epB" eventType="touchUpInside" id="7as-Yd-2Ca"/>
+                    </connections>
+                </button>
+            </subviews>
+            <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
+            <constraints>
+                <constraint firstAttribute="trailing" secondItem="Zdg-1a-ojz" secondAttribute="trailing" id="Kb5-QI-cI4"/>
+                <constraint firstItem="bfC-aa-Te9" firstAttribute="leading" secondItem="iN0-l3-epB" secondAttribute="leading" id="aaY-c4-57h"/>
+                <constraint firstItem="Zdg-1a-ojz" firstAttribute="top" secondItem="iN0-l3-epB" secondAttribute="top" id="bgI-lw-zUq"/>
+                <constraint firstAttribute="bottom" secondItem="bfC-aa-Te9" secondAttribute="bottom" id="pw6-BR-AdW"/>
+                <constraint firstAttribute="trailing" secondItem="bfC-aa-Te9" secondAttribute="trailing" id="rM4-Dk-xKG"/>
+                <constraint firstItem="bfC-aa-Te9" firstAttribute="top" secondItem="iN0-l3-epB" secondAttribute="top" id="rpN-wf-LZ4"/>
+                <constraint firstAttribute="bottom" secondItem="Zdg-1a-ojz" secondAttribute="bottom" id="spS-V9-G4d"/>
+            </constraints>
+            <nil key="simulatedStatusBarMetrics"/>
+            <freeformSimulatedSizeMetrics key="simulatedDestinationMetrics"/>
+            <connections>
+                <outlet property="cancelBtn" destination="Zdg-1a-ojz" id="nQW-AR-YTk"/>
+                <outlet property="textField" destination="bfC-aa-Te9" id="RSj-gz-czw"/>
+                <outlet property="textFieldTrailing" destination="rM4-Dk-xKG" id="kJJ-KK-4bM"/>
+            </connections>
+            <point key="canvasLocation" x="538" y="151"/>
+        </view>
+    </objects>
+</document>

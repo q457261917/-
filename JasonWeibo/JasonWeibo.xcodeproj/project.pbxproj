@@ -18,6 +18,12 @@
 		333EF52E1C7B8E5F0065E10B /* CZHomeController.m in Sources */ = {isa = PBXBuildFile; fileRef = 333EF52D1C7B8E5F0065E10B /* CZHomeController.m */; };
 		333EF5311C7B8E6F0065E10B /* CZMeController.m in Sources */ = {isa = PBXBuildFile; fileRef = 333EF5301C7B8E6F0065E10B /* CZMeController.m */; };
 		333EF5341C7B8E830065E10B /* CZMessageController.m in Sources */ = {isa = PBXBuildFile; fileRef = 333EF5331C7B8E830065E10B /* CZMessageController.m */; };
+		33EF4FD11C7BFBA600F2788E /* UIBarButtonItem+Extension.m in Sources */ = {isa = PBXBuildFile; fileRef = 33EF4FD01C7BFBA600F2788E /* UIBarButtonItem+Extension.m */; };
+		33EF4FD61C7C391600F2788E /* CZTwoController.m in Sources */ = {isa = PBXBuildFile; fileRef = 33EF4FD51C7C391600F2788E /* CZTwoController.m */; };
+		33EF4FD91C7C392900F2788E /* CZThreeController.m in Sources */ = {isa = PBXBuildFile; fileRef = 33EF4FD81C7C392900F2788E /* CZThreeController.m */; };
+		33EF4FDC1C7C436500F2788E /* CZNavigationController.m in Sources */ = {isa = PBXBuildFile; fileRef = 33EF4FDB1C7C436500F2788E /* CZNavigationController.m */; };
+		33EF4FDF1C7C79B900F2788E /* CZDiscoverSearchBar.m in Sources */ = {isa = PBXBuildFile; fileRef = 33EF4FDE1C7C79B900F2788E /* CZDiscoverSearchBar.m */; };
+		33EF4FE31C7C79FC00F2788E /* CZDiscoverSearchBar.xib in Resources */ = {isa = PBXBuildFile; fileRef = 33EF4FE21C7C79FC00F2788E /* CZDiscoverSearchBar.xib */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -61,6 +67,18 @@
 		333EF5301C7B8E6F0065E10B /* CZMeController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CZMeController.m; sourceTree = "<group>"; };
 		333EF5321C7B8E830065E10B /* CZMessageController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CZMessageController.h; sourceTree = "<group>"; };
 		333EF5331C7B8E830065E10B /* CZMessageController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CZMessageController.m; sourceTree = "<group>"; };
+		33EF4FCF1C7BFBA600F2788E /* UIBarButtonItem+Extension.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIBarButtonItem+Extension.h"; sourceTree = "<group>"; };
+		33EF4FD01C7BFBA600F2788E /* UIBarButtonItem+Extension.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIBarButtonItem+Extension.m"; sourceTree = "<group>"; };
+		33EF4FD21C7BFC3800F2788E /* weibo-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "weibo-Prefix.pch"; sourceTree = "<group>"; };
+		33EF4FD41C7C391600F2788E /* CZTwoController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CZTwoController.h; sourceTree = "<group>"; };
+		33EF4FD51C7C391600F2788E /* CZTwoController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CZTwoController.m; sourceTree = "<group>"; };
+		33EF4FD71C7C392900F2788E /* CZThreeController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CZThreeController.h; sourceTree = "<group>"; };
+		33EF4FD81C7C392900F2788E /* CZThreeController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CZThreeController.m; sourceTree = "<group>"; };
+		33EF4FDA1C7C436500F2788E /* CZNavigationController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CZNavigationController.h; sourceTree = "<group>"; };
+		33EF4FDB1C7C436500F2788E /* CZNavigationController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CZNavigationController.m; sourceTree = "<group>"; };
+		33EF4FDD1C7C79B900F2788E /* CZDiscoverSearchBar.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CZDiscoverSearchBar.h; sourceTree = "<group>"; };
+		33EF4FDE1C7C79B900F2788E /* CZDiscoverSearchBar.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CZDiscoverSearchBar.m; sourceTree = "<group>"; };
+		33EF4FE21C7C79FC00F2788E /* CZDiscoverSearchBar.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = CZDiscoverSearchBar.xib; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -116,6 +134,7 @@
 				333EF4EB1C7B00C30065E10B /* LaunchScreen.storyboard */,
 				333EF4EE1C7B00C30065E10B /* Info.plist */,
 				333EF4DD1C7B00C30065E10B /* Supporting Files */,
+				33EF4FD21C7BFC3800F2788E /* weibo-Prefix.pch */,
 			);
 			path = JasonWeibo;
 			sourceTree = "<group>";
@@ -149,6 +168,8 @@
 		333EF5101C7B8BA60065E10B /* Classes */ = {
 			isa = PBXGroup;
 			children = (
+				33EF4FD31C7C38FB00F2788E /* Tmp */,
+				33EF4FCA1C7BF8A100F2788E /* Lib */,
 				333EF5251C7B8BEA0065E10B /* Other */,
 				333EF5111C7B8BA60065E10B /* Discover */,
 				333EF5151C7B8BA60065E10B /* Home */,
@@ -188,6 +209,9 @@
 		333EF5141C7B8BA60065E10B /* View */ = {
 			isa = PBXGroup;
 			children = (
+				33EF4FDD1C7C79B900F2788E /* CZDiscoverSearchBar.h */,
+				33EF4FDE1C7C79B900F2788E /* CZDiscoverSearchBar.m */,
+				33EF4FE21C7C79FC00F2788E /* CZDiscoverSearchBar.xib */,
 			);
 			path = View;
 			sourceTree = "<group>";
@@ -240,6 +264,8 @@
 			children = (
 				333EF5261C7B8D500065E10B /* CZTabBarController.h */,
 				333EF5271C7B8D500065E10B /* CZTabBarController.m */,
+				33EF4FDA1C7C436500F2788E /* CZNavigationController.h */,
+				33EF4FDB1C7C436500F2788E /* CZNavigationController.m */,
 			);
 			path = Controller;
 			sourceTree = "<group>";
@@ -331,6 +357,34 @@
 				333EF4E11C7B00C30065E10B /* AppDelegate.m */,
 			);
 			path = Other;
+			sourceTree = "<group>";
+		};
+		33EF4FCA1C7BF8A100F2788E /* Lib */ = {
+			isa = PBXGroup;
+			children = (
+				33EF4FCB1C7BF8A100F2788E /* Category */,
+			);
+			path = Lib;
+			sourceTree = "<group>";
+		};
+		33EF4FCB1C7BF8A100F2788E /* Category */ = {
+			isa = PBXGroup;
+			children = (
+				33EF4FCF1C7BFBA600F2788E /* UIBarButtonItem+Extension.h */,
+				33EF4FD01C7BFBA600F2788E /* UIBarButtonItem+Extension.m */,
+			);
+			path = Category;
+			sourceTree = "<group>";
+		};
+		33EF4FD31C7C38FB00F2788E /* Tmp */ = {
+			isa = PBXGroup;
+			children = (
+				33EF4FD41C7C391600F2788E /* CZTwoController.h */,
+				33EF4FD51C7C391600F2788E /* CZTwoController.m */,
+				33EF4FD71C7C392900F2788E /* CZThreeController.h */,
+				33EF4FD81C7C392900F2788E /* CZThreeController.m */,
+			);
+			path = Tmp;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -441,6 +495,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				333EF4ED1C7B00C30065E10B /* LaunchScreen.storyboard in Resources */,
+				33EF4FE31C7C79FC00F2788E /* CZDiscoverSearchBar.xib in Resources */,
 				333EF4EA1C7B00C30065E10B /* Assets.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -469,10 +524,15 @@
 				333EF52E1C7B8E5F0065E10B /* CZHomeController.m in Sources */,
 				333EF4E21C7B00C30065E10B /* AppDelegate.m in Sources */,
 				333EF5311C7B8E6F0065E10B /* CZMeController.m in Sources */,
+				33EF4FD61C7C391600F2788E /* CZTwoController.m in Sources */,
 				333EF5341C7B8E830065E10B /* CZMessageController.m in Sources */,
 				333EF52B1C7B8E450065E10B /* CZDiscoverController.m in Sources */,
+				33EF4FD11C7BFBA600F2788E /* UIBarButtonItem+Extension.m in Sources */,
+				33EF4FDC1C7C436500F2788E /* CZNavigationController.m in Sources */,
+				33EF4FD91C7C392900F2788E /* CZThreeController.m in Sources */,
 				333EF5281C7B8D500065E10B /* CZTabBarController.m in Sources */,
 				333EF4DF1C7B00C30065E10B /* main.m in Sources */,
+				33EF4FDF1C7C79B900F2788E /* CZDiscoverSearchBar.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -605,6 +665,8 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "${SRCROOT}/JasonWeibo/weibo-Prefix.pch";
 				INFOPLIST_FILE = JasonWeibo/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 8.1;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
@@ -617,6 +679,8 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "${SRCROOT}/JasonWeibo/weibo-Prefix.pch";
 				INFOPLIST_FILE = JasonWeibo/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 8.1;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
@@ -692,6 +756,7 @@
 				333EF5091C7B00C30065E10B /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		333EF50A1C7B00C30065E10B /* Build configuration list for PBXNativeTarget "JasonWeiboTests" */ = {
 			isa = XCConfigurationList;
@@ -700,6 +765,7 @@
 				333EF50C1C7B00C30065E10B /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		333EF50D1C7B00C30065E10B /* Build configuration list for PBXNativeTarget "JasonWeiboUITests" */ = {
 			isa = XCConfigurationList;
@@ -708,6 +774,7 @@
 				333EF50F1C7B00C30065E10B /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

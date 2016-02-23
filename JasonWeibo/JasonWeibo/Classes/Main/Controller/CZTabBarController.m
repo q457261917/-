@@ -11,6 +11,7 @@
 #import "CZHomeController.h"
 #import "CZMeController.h"
 #import "CZMessageController.h"
+#import "CZNavigationController.h"
 
 
 @interface CZTabBarController ()
@@ -45,7 +46,7 @@
 - (void)addChildWith:(UIViewController *)viewController with:(NSString *)title normalImageName:(NSString *)normalImageName selectedImageName:(NSString *)selectedImageName
 {
     //设置导航控制器的根控制器
-    UINavigationController *nav = [[UINavigationController alloc]initWithRootViewController:viewController];
+    CZNavigationController *nav = [[CZNavigationController alloc]initWithRootViewController:viewController];
     //设置tabBarItem的title
     nav.tabBarItem.title = title;
     //设置图片

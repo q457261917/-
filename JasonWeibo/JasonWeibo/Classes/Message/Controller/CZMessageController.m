@@ -7,6 +7,7 @@
 //
 
 #import "CZMessageController.h"
+#import "CZTwoController.h"
 
 @interface CZMessageController ()
 
@@ -17,11 +18,17 @@
 - (void)viewDidLoad {
     [super viewDidLoad];
     
-    // Uncomment the following line to preserve selection between presentations.
-    // self.clearsSelectionOnViewWillAppear = NO;
-    
-    // Uncomment the following line to display an Edit button in the navigation bar for this view controller.
-    // self.navigationItem.rightBarButtonItem = self.editButtonItem;
+    NSString *title = @"发起聊天";
+    UIBarButtonItem *chatItem = [UIBarButtonItem barButtonItemWithTitle:title addTarget:self action:@selector(chatItemClick)];
+//    chatItem.enabled = NO;
+    self.navigationItem.rightBarButtonItem = chatItem;
+}
+
+- (void)chatItemClick
+{
+    NSLog(@"%s",__func__);
+    UIViewController *vc = [[CZTwoController alloc] init];
+    [self.navigationController pushViewController:vc animated:YES];
 }
 
 - (void)didReceiveMemoryWarning {

@@ -7,6 +7,7 @@
 //
 
 #import "CZHomeController.h"
+#import "CZTwoController.h"
 
 @interface CZHomeController ()
 
@@ -17,11 +18,26 @@
 - (void)viewDidLoad {
     [super viewDidLoad];
     
-    // Uncomment the following line to preserve selection between presentations.
-    // self.clearsSelectionOnViewWillAppear = NO;
+    self.title = @"首页";
     
-    // Uncomment the following line to display an Edit button in the navigation bar for this view controller.
-    // self.navigationItem.rightBarButtonItem = self.editButtonItem;
+    UIBarButtonItem *leftItem = [UIBarButtonItem barButtonItemWith:@"navigationbar_friendsearch" andhighlight:@"navigationbar_friendsearch_highlighted" addTarget:self action:@selector(friendSearchItemClick)];
+    self.navigationItem.leftBarButtonItem = leftItem;
+    
+    UIBarButtonItem *rightItem = [UIBarButtonItem barButtonItemWith:@"navigationbar_pop" andhighlight:@"navigationbar_pop_highlighted" addTarget:self action:@selector(scanItemClick)];
+    self.navigationItem.rightBarButtonItem = rightItem;
+    
+}
+
+- (void)friendSearchItemClick
+{
+    NSLog(@"%s",__func__);
+    CZTwoController *twoVC = [[CZTwoController alloc] init];
+    [self.navigationController pushViewController:twoVC animated:YES];
+}
+
+- (void)scanItemClick
+{
+    NSLog(@"%s",__func__);
 }
 
 - (void)didReceiveMemoryWarning {
